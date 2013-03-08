@@ -1,13 +1,23 @@
 # clj-pam
 
-A Clojure library designed to ... well, that part is up to you.
+clj-pam is a Clojure wrapper for the JPam library, providing Linux PAM authentication for Clojure apps.
 
 ## Usage
 
-FIXME
+The most basic usage is simply:
+
+```clojure
+
+(use 'clj-pam.auth)
+
+(simple-auth "username" "password")
+```
+
+More examples to follow.
+
 
 ## License
 
-Copyright © 2013 FIXME
+Copyright © 2013 Jason Lewis
 
 Distributed under the Eclipse Public License, the same as Clojure.
