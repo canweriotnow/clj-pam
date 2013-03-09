@@ -5,4 +5,4 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.4.0"]
                  [net.sf.jpam/jpam "1.1"]
-                 [org.clojars.canweriotnow/jpam-native-deps "1.1"]])
+                 [org.clojars.canweriotnow/jpam-native-deps "1.1.1"]])
